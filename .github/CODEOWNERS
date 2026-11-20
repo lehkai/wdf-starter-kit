@@ -1,0 +1,8 @@
+# WDF v1.2 – Muster. Aktuell NUR Kommentare, es werden KEINE Reviews erzwungen.
+# Bei Team/Factory tatsächliche Handles/Teams einsetzen und Rechte prüfen.
+# Beispiele (erst nach Ersetzen der Handles aktivieren):
+# * @YOUR-GITHUB-USER
+# /src/ @YOUR-TEAM/maintainers
+# /supabase/ @YOUR-TEAM/database-reviewers
+# /.github/ @YOUR-TEAM/maintainers
+# /AGENTS.md @YOUR-TEAM/maintainers

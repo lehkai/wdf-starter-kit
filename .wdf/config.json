@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.2",
+  "mode": "solo",
+  "repository_policy": "github",
+  "feature_plan_source": "markdown",
+  "human_release_approval": true
+}

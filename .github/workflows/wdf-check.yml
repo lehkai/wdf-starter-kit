@@ -1,0 +1,15 @@
+name: WDF Starter Checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  starter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate starter structure
+        run: python3 scripts/check_wdf.py
+      - name: Test starter scripts
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v

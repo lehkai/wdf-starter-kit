@@ -1,0 +1,23 @@
+name: Improvement
+description: PDCA-Erkenntnis zur nächsten Iteration
+title: "I-XXX: "
+body:
+  - type: textarea
+    id: observation
+    attributes:
+      label: Beobachtung und Quelle
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Verbesserung und erwarteter Nutzen
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priorität
+      options: [Hoch, Mittel, Niedrig]
+    validations:
+      required: true
